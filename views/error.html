@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>500 Error Page</title>
+  
+  
+  
+      <link rel="stylesheet" href="/static/css/500-error.css">
+
+  
+</head>
+
+<body>
+
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
+<div class="message">
+	<h1>500</h1>
+	<h3>Server Error</h3>
+  <h2>It's not you, it's me.</h2>
+  <h2>{{ .err }}</h2>
+	<!-- use window.history.back(); to go back -->
+	<button onclick="back()">Go Back</button>
+</div>
+  
+  
+
+    <script  src="/static/js/500-error.js"></script>
+
+
+
+
+</body>
+
+</html>

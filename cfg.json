@@ -1,0 +1,42 @@
+{
+    "debug": true,
+    "portrait": "img/v2af.jpg",
+    "motto": "keep talk , don't show me the code .",
+    "cookie": {
+        "secure": false,
+        "max_age": 3600,
+        "damain": ""
+    },
+    "http": {
+        "listen": ":80",
+        "secret": "f16a677edf49ead9975944ae65d5b8d6"
+    },
+    "mysql": {
+        "addr": "root@tcp(127.0.0.1:3306)/blog?charset=utf8&&loc=Asia%2FShanghai",
+        "idle": 5,
+        "max": 100,
+        "show_sql": true
+    },
+    "cache": {
+        "provider": "memory",
+        "expire": 3600
+    },
+    "redis": {
+        "addr": "127.0.0.1:6379",
+        "idle": 5,
+        "max": 1000,
+        "timeout": {
+            "conn": 100,
+            "read": 1000,
+            "write": 1000
+        }
+    },
+    "upload": "upload",
+    "qiniu": {
+        "enabled": false,
+        "bucket": "",
+        "access_key": "",
+        "secret_key": "",
+        "domain": ""
+    }
+}
